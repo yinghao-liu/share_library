@@ -15,17 +15,8 @@
  */
 
 #include <stdio.h>
-#include <stdlib.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
-#include <arpa/inet.h>
-#include <string.h>
-#include <unistd.h>
-#include <time.h>
-#include <sys/shm.h>
-#include "common.h"
 
-int main(int argc,char **argv)
+int slave_print(int argc,char **argv)
 {
 	printf("this is from static share library\n");
 	return 0;
